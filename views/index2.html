@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Выше 3 Мета-теги ** должны прийти в первую очередь в голове; любой другой руководитель контент *после* эти теги -->
+
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-----------------header--------------------------------------------->
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+
+
+
+            <div class="navbar-header navbar-inverse">
+                <a class="logo" href="index1.html">RU<i class="fa fa-circle" aria-hidden="true"></i>MG</a>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ><a href="#">Главная</a></li>
+                    <li><a href="#">Блог </a></li>
+                    <li><a href="#">Фильтр</a></li>
+                    <li><a href="#">Добавить анкету</a></li>
+                    <li><a href="../login.php">Вход <i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+
+
+                </ul>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+<!-----------------/header--------------------------------------------->
+
+    <!--Маяк-->
+    <div id="mayks">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="info">
+                            <ul class="mayk">
+                                <li><a href="#">Главная</a></li>
+                            </ul>
+                            <h4> Частные обьявления массажистов и SPA салонов </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Маяк-->
+    <!----------------------------------------------MAIN------------------------------------------------------->
+
+    <!--Main-->
+    <div class="container">
+
+    <div class="col-md-12" >
+        <div class=" col-md-9 ">
+
+<div class="search_info">
+    <div class="search">
+    <form name="search" action="#">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 ">
+                    <div class="search">
+                        <div class="col-md-3 col-sm-6 ">
+                            <label for="сity">Город</label>
+                            <select id="сity" class="form-control" name="city" >
+                                <option value="">Неважно</option>
+                                <option class="font-weight-bold" value="">Москва</option>
+                                <option class="font-weight-bold" value="">Московская область</option>
+                                <option class="font-weight-bold" value="">Санкт-Петербург</option>
+                                <option value="">Сочи</option>
+                                <option value="">Адлел</option>
+                                <option value="">Ростов</option>
+                                <option value="">Липецк</option>
+                            </select>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!------------------------------------------1-------------------------------------------->
+        <div class="clearfix"></div>
+        <div class="row ">
+            <div class="search2">
+            <div class=" col-md-12 ">
+
+                    <div class="col-md-4 col-sm-6 ">
+                        <label for="type">Тип</label>
+                        <select id="type" class="form-control" name="type" >
+                            <option value="">Неважно</option>
+                            <option value="man">Частные массажисты</option>
+                            <option  value="women">Частные массажистки</option>
+                            <option  value="salon">Салоны массажа</option>
+                            <option value="spa">SPA салоны</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 ">
+                        <label for=" location">Место</label>
+                        <select id=" location" class="form-control" name=" location" >
+                            <option value="">Неважно</option>
+                            <option value="">У себя</option>
+                            <option  value="">Выезд к Вам</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 ">
+                        <label for="views">Вид массажа</label>
+                        <select id="views" class="form-control" name="views" >
+                            <option value="">Неважно</option>
+                            <option value="">Оздоровительный </option>
+                            <option  value="">Спортивный</option>
+                            <option  value="">Антицелюлитный</option>
+                            <option value="">Тайский</option>
+                        </select>
+                    </div>
+            </div>
+        </div>
+        </div>
+        <div class="row ">
+            <div class=" col-md-12 ">
+
+                <div class="search3">
+                <div class="poisk">
+                <button  class="btn btn-info"> Поиск</button>
+                </div>
+                </div>
+
+             </div>
+        </div>
+    </form>
+    </div>
+
+    </div>
+
+<!--------------------------------------------page-------------------------------------------------------------->
+                    <div class="row">
+
+                        <div class="col-md-12">
+                                <div class="page_info">
+                                    <div class="page">
+                                    <p>Показ анкет: с 1 по 12 из 350</p>
+                                    </div>
+
+                                </div>
+                        </div>
+                    </div>
+<!------------------------------------------CONTENT-------------------------------------------------------------->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="content">
+                                <!--<div class="anketas">-->
+
+                                            <!--<div class="list">-->
+                                    <!--<div class="figure " >-->
+                                        <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                            <!--8000</div>-->
+                                        <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                    <!--</div>-->
+
+                                    <!--<div class="name-panel " >-->
+                                        <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                    <!--</div>-->
+
+
+                                    <!--<div class="geo">-->
+
+                                        <!--<b> Москва</b>:-->
+                                        <!--<span class="metro_list">Маяковская </span>,-->
+                                        <!--<span class="metro_list">Тверская</span>,-->
+                                        <!--<span class="metro_list">Белорусская </span>.-->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+
+
+
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!--<div class="list">-->
+                                                <!--<div class="figure " >-->
+                                                    <!--<div class="pris"><i class="fa fa-rub" aria-hidden="true"></i>-->
+                                                        <!--8000</div>-->
+                                                    <!--<figure><a href="#"><img src="../img/3.jpg" alt="salon"></a></figure>-->
+
+                                                <!--</div>-->
+
+                                                <!--<div class="name-panel " >-->
+                                                    <!--<a href="#" alt="name"><h5>SPA NEW</h5></a>-->
+
+                                                <!--</div>-->
+
+
+                                                <!--<div class="geo">-->
+
+                                                    <!--<b> Москва</b>:-->
+                                                    <!--<span class="metro_list">Маяковская </span>,-->
+                                                    <!--<span class="metro_list">Тверская</span>,-->
+                                                    <!--<span class="metro_list">Белорусская </span>.-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                <!--</div>-->
+
+                            </div>
+                        </div>
+                    </div>
+    <!--------------------------------------pagination-------------------------------------------------------->
+                   <div class="row">
+                       <div class="col-md-12">
+                           <nav class="stranizy">
+                               <div class="straniza">
+                               <ul class=" pagination">
+                                   <li>
+                                       <a href="" aria-label="Previous"><span aria-hidden="true">&laquo</span></a>
+                                   </li>
+                                   <li><a href="">1</a></li>
+                                   <li><a href="">2</a></li>
+                                   <li><a href="">3</a></li>
+                                   <li><a href="">4</a></li>
+                                   <li><a href="">5</a></li>
+                                   <li><a href="">6</a></li>
+                                   <li><a href="">7</a></li>
+                                   <li><a href="">8</a></li>
+                                   <li>
+                                       <a href="" aria-label="Previous"><span aria-hidden="true">&raquo</span></a>
+                                   </li>
+
+                               </ul>
+                               </div>
+                           </nav>
+                       </div>
+                   </div>
+
+        </div>
+<!----------------------------------------------------------------------------------------------------------------->
+        <!----------SIDBAR----------------->
+
+        <div class="col-md-3 ">
+            <div class="sidbar">
+                <div class="cursy">
+                    <b>Курсы массажа </b>
+                    <ul>
+                        <li><a href="index1.html"> Москва</a></li>
+                        <li><a href="index1.html"> Санкт-Петербург</a></li>
+                        <li><a href="index1.html">Сочи</a></li>
+                        <li><a href="index1.html">Тайланд</a></li>
+                        <li><a href="index1.html">Индия</a></li>
+                    </ul>
+                </div>
+
+                <div class="expendable material">
+                    <b>Расходные материалы </b>
+                    <ul>
+                        <li><a href="index1.html"> Москва</a></li>
+                        <li><a href="index1.html"> Санкт-Петербург</a></li>
+                        <li><a href="index1.html">Сочи</a></li>
+                    </ul>
+                </div>
+
+                <div class="cosmo">
+                    <b>Услуги косметологов </b>
+                    <ul>
+                        <li><a href="index1.html"> Москва</a></li>
+                        <li><a href="index1.html"> Санкт-Петербург</a></li>
+                        <li><a href="index1.html">Сочи</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+            <div class="clearfix"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+    <!---->
+        <!--**************************************-->
+        <!--***************FOOTER********************-->
+
+        <footer >
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  ">
+                    <div class="footer ">
+
+
+                            <div class="footer_nav ">
+
+                                <p>Разделы сайта:</p>
+                            <ul class="">
+                                <li ><a href="#">Обратная связь</a></li>
+                                <li><a href="#">Добавить анкету</a></li>
+                                <li><a href="#">Регистрация </a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="../login.php">Вход </a></li>
+                            </ul>
+                            </div>
+
+<!------------------------------------------------------------------------------------------------->
+
+
+                            <div class="footer_new ">
+                                <p>Новые анкеты</p>
+
+                                 <div class="new " >
+
+                                       <figure class="new_bec">
+                                       <a href="index1.html"><img src="../img/4.jpg "></a>
+                                       </figure>
+
+                                         <figure class="new_bec">
+                                             <a href="index1.html"><img src="../img/4.jpg "></a>
+                                         </figure>
+
+                                         <figure class="new_bec">
+                                             <a href="index1.html"><img src="../img/4.jpg "></a>
+                                         </figure>
+
+                                         <figure class="new_bec">
+                                             <a href="index1.html"><img src="../img/4.jpg "></a>
+                                         </figure>
+
+                                         <figure class="new_bec">
+                                             <a href="index1.html"><img src="../img/4.jpg "></a>
+                                         </figure>
+
+                                         <figure class="new_bec">
+                                             <a href="index1.html"><img src="../img/4.jpg "></a>
+                                         </figure>
+
+
+                                 </div>
+
+
+                          </div>
+
+
+<!---------------------------------------------------------------------------------------------->
+
+
+
+
+
+                            <div class="footer_сс ">
+
+                                <p>Мы в социальных сетях:</p>
+
+                                <ul class="cc">
+                                    <li><a href="https://www.facebook.com/"><img src="../img/socialIcon.png"></a></li>
+                                    <li><a href="https://vk.com/feed"><img src="../img/socialIcon2 (1).png"> </a></li>
+                                    <li><a href="https://my.mail.ru/"><img src="../img/socialIcon2 (2).png"></a></li>
+                                    <li><a href="https://ok.ru/"><img src="../img/socialIcon3.png"></a></li>
+
+                                </ul>
+
+                            </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+
+            <div class="copyright">
+                  <p>Бесплатное размещение объявлений:частных массажистов и массажных салонов. </p>
+                  <p> lux999@yandex.ru</p>
+            </div>
+
+
+        <!--**************************************-->
+        <!--***************/FOOTER********************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/libs/bootstrap.min.js"></script>
+</body>
+</html>
+
+
